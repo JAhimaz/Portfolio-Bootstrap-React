@@ -1,0 +1,15 @@
+@import "EditMe.css";
+
+.App {
+  text-align: center;
+  font-family: var(--font);
+}
+
+.App-header {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
