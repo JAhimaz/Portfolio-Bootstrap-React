@@ -4,6 +4,8 @@
 
 .profile-row {
     margin-top: 5em;
+    height: 10em;
+    pointer-events: none;
 }
 
 .profile {
@@ -12,6 +14,7 @@
     border-radius: 50%;
     border: 5px solid var(--primary-color);
     box-shadow: 0px 15px 20px black;
+
 }
 
 .profile-img {
@@ -67,6 +70,14 @@
 .lower-profile-text-sub {
     color: rgb(75, 75, 75);
     font-size: 1.5em;
+}
+
+.profile-twitter, .profile-linkedin, .profile-github {
+    color: var(--primary-color);
+    font-size: 30px;
+    text-align: center;
+    transition: font-size 0.2s;
+    pointer-events: all;
 }
 
 /* HORIZONTAL IPAD VIEW */
@@ -138,7 +149,7 @@
     }
     
     .greeting-name {
-        font-size: 3em;
+        font-size: 2.5em;
         line-height: 1.2em;
     }
     
@@ -147,11 +158,40 @@
     }
     
     .lower-profile-text {
-        font-size: 1.75em;
+        font-size: 2em;
     }
     
     .lower-profile-text-sub {
         font-size: 1.5em;
+    }
+
+    .profile-twitter, .profile-linkedin, .profile-github {
+        color: var(--primary-color);
+        font-size: 30px;
+        position: absolute;
+        text-align: center;
+        transition: font-size 0.2s;
+    }
+
+    .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
+        color: var(--secondary-color);
+        font-size: 35px;
+        position: absolute;
+    }
+
+    .profile-twitter {
+        left: 25%;
+        bottom: -15%;
+    }
+
+    .profile-github {
+        left: 47.5%;
+        bottom: -25%;
+    }
+
+    .profile-linkedin {
+        right: 25%;
+        bottom: -15%;
     }
 }
 
@@ -176,6 +216,28 @@
 
     .column-profile {
         margin-top: 0em;
+        position: relative;
+    }
+
+    .profile-twitter, .profile-linkedin, .profile-github {
+        font-size: 35px;
+    }
+
+    .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
+        font-size: 40px;
+
+    }
+
+    .profile-twitter {
+        bottom: -10%;
+    }
+
+    .profile-github {
+        bottom: -20%;
+    }
+
+    .profile-linkedin {
+        bottom: -10%;
     }
     
     .greeting-sub {
@@ -183,7 +245,7 @@
     }
     
     .greeting-name {
-        font-size: 4em;
+        font-size: 3em;
         line-height: 1.2em;
     }
     
@@ -192,11 +254,13 @@
     }
     
     .lower-profile-text {
-        font-size: 2em;
+        font-size: 1.5em;
+        padding-right: 5em;
+        
     }
     
     .lower-profile-text-sub {
-        font-size: 1.75em;
+        font-size: 1.2em;
     }
 }
 
