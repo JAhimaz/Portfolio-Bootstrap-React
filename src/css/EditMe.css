@@ -3,6 +3,7 @@
 :root {
     /* The main background colour of the page */
     --bg-color: #201f25;
+    --bg-over: #33313a;
     /* The primary highlight colour of the page, such as profile ring, icons and highlight text */
     --primary-color: #38cdee;
     --secondary-color: #4edcff;

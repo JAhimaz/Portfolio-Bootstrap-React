@@ -7,6 +7,37 @@ Ofcourse you may take full advantage of editing it yourself through the code if 
 
 */
 
+// Navigation --------------------------------------------------------------------
+
+export let leftNavigation = [
+    {
+        text: "_External",
+        url: "#",
+    },
+]
+
+export let rightNavigation = [
+    {
+        text: "_About Me",
+        url: "#",
+    },
+    {
+        text: "_Portfolio",
+        url: "#",
+    },
+    {
+        text: "_Contact",
+        url: "#",
+    },
+]
+
+export let resumeBtn = {
+    enabled: true,
+    url: "",
+}
+
+// Information ------------------------------------------------------------------------
+
 // Name in Profile Banner
 export let fullName = "John D. Doe";
 

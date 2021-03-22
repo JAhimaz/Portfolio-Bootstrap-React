@@ -4,7 +4,7 @@
 
 .profile-row {
     margin-top: 5em;
-    height: 10em;
+    height: 40em;
     pointer-events: none;
 }
 
@@ -64,12 +64,13 @@
 
 .lower-profile-text {
     color: white;
-    font-size: 1.75em;
+    font-size: 1em;
+    padding: 0 1em;
 }
 
 .lower-profile-text-sub {
-    color: rgb(75, 75, 75);
-    font-size: 1.5em;
+    color: rgb(97, 97, 97);
+    font-size: 1em;
 }
 
 .profile-twitter, .profile-linkedin, .profile-github {
@@ -80,11 +81,15 @@
     pointer-events: all;
 }
 
+.profile-socials {
+    display: none;
+}
+
 /* HORIZONTAL IPAD VIEW */
 
 @media screen and (min-width: 1024px) {
     .profile-row {
-        margin-top: 2.5em;
+        margin-top: 5em;
     }
     
     .profile {
@@ -117,17 +122,51 @@
         flex-direction: column;
         justify-content: center;
         text-align: left;
-        line-height: 1.25em;
+        line-height: 2em;
         justify-content: center;
         margin-top: 0em;
     }
     
     .lower-profile-text {
-        font-size: 1.5em;
+        font-size: 1.25em;
+        padding: 0;
     }
     
     .lower-profile-text-sub {
-        font-size: 1.25em;
+        font-size: 1em;
+    }
+
+    .profile-twitter, .profile-linkedin, .profile-github {
+        color: var(--primary-color);
+        font-size: 30px;
+        position: absolute;
+        text-align: center;
+        transition: font-size 0.2s;
+    }
+
+    .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
+        color: var(--secondary-color);
+        font-size: 35px;
+        position: absolute;
+    }
+
+    .profile-twitter {
+        left: 20%;
+        bottom: -20%;
+    }
+
+    .profile-github {
+        left: 46%;
+        bottom: -30%;
+    }
+
+    .profile-linkedin {
+        right: 20%;
+        bottom: -20%;
+    }
+
+    .profile-socials {
+        display: contents;
     }
 }
 
@@ -152,31 +191,14 @@
         font-size: 2.5em;
         line-height: 1.2em;
     }
-    
-    .column-status {
-        line-height: 1.5em;
-    }
-    
-    .lower-profile-text {
-        font-size: 2em;
-    }
-    
-    .lower-profile-text-sub {
-        font-size: 1.5em;
-    }
 
     .profile-twitter, .profile-linkedin, .profile-github {
-        color: var(--primary-color);
-        font-size: 30px;
-        position: absolute;
-        text-align: center;
-        transition: font-size 0.2s;
+        font-size: 35px;
     }
 
     .profile-twitter:hover, .profile-linkedin:hover, .profile-github:hover {
-        color: var(--secondary-color);
-        font-size: 35px;
-        position: absolute;
+        font-size: 40px;
+
     }
 
     .profile-twitter {
@@ -185,7 +207,7 @@
     }
 
     .profile-github {
-        left: 47.5%;
+        left: 45%;
         bottom: -25%;
     }
 
@@ -193,13 +215,26 @@
         right: 25%;
         bottom: -15%;
     }
+    
+    .column-status {
+        line-height: 2em;
+    }
+    
+    .lower-profile-text {
+        font-size: 1.5em;
+        padding-right: 10px;
+    }
+    
+    .lower-profile-text-sub {
+        font-size: 1.25em;
+    }
 }
 
 /* DESKTOP VIEW */
 
 @media screen and (min-width: 1920px) {
     .profile-row {
-        margin-top: 5em;
+        margin-top: 10em;
     }
     
     .profile {
@@ -229,14 +264,17 @@
     }
 
     .profile-twitter {
+        left: 25%;
         bottom: -10%;
     }
 
     .profile-github {
+        left: 47.5%;
         bottom: -20%;
     }
 
     .profile-linkedin {
+        right: 25%;
         bottom: -10%;
     }
     

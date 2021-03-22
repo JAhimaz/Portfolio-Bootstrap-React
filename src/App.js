@@ -10,6 +10,7 @@ import Particles from 'react-particles-js';
 // Importing Components
 import Navigation from './components/Navigation';
 import Profile from './components/Profile';
+import AboutMe from './components/AboutMe';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
           params={{
             particles: {
               number: {
-                value: 40,
+                value: 45,
                 density: {
                   enable: false,
                   value_area: 300
@@ -60,6 +61,7 @@ function App() {
           }}
         />
         <Profile />
+        <AboutMe />
       </header>
     </div>
   );

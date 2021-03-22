@@ -25,15 +25,17 @@ function Profile() {
                     <div className="profile">
                         <img className="profile-img" src={profilePhoto} alt="profile-image"></img>
                     </div>
-                    <a target="_blank" href={twitterURL} className="profile-twitter">
-                        <FontAwesomeIcon icon = { faTwitter } />
-                    </a>
-                    <a target="_blank" href={githubURL} className="profile-github">
-                        <FontAwesomeIcon icon = { faGithub } />
-                    </a>
-                    <a target="_blank" href={linkedinURL} className="profile-linkedin">
-                        <FontAwesomeIcon icon = { faLinkedin } />
-                    </a>
+                    <div className="profile-socials">
+                        <a target="_blank" href={twitterURL} className="profile-twitter">
+                            <FontAwesomeIcon icon = { faTwitter } />
+                        </a>
+                        <a target="_blank" href={githubURL} className="profile-github">
+                            <FontAwesomeIcon icon = { faGithub } />
+                        </a>
+                        <a target="_blank" href={linkedinURL} className="profile-linkedin">
+                            <FontAwesomeIcon icon = { faLinkedin } />
+                        </a>
+                    </div>
                 </Col>
                 <Col className="column-status" xs={12} lg={4}>
                     <p className="lower-profile-text">{aboutMe}</p>

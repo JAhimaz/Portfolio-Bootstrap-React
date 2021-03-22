@@ -1,0 +1,33 @@
+@import "EditMe.css";
+
+.aboutme-container {
+    margin-top: 5em;
+    height: 400px;
+    width: 100%;
+    background-color: var(--bg-over);
+}
+
+
+/* HORIZONTAL IPAD VIEW */
+
+@media screen and (min-width: 1024px) {
+
+}
+
+/* 720p LAPTOP VIEW */
+
+@media screen and (min-width: 1280px) {
+
+}
+
+/* DESKTOP VIEW */
+
+@media screen and (min-width: 1920px) {
+    .aboutme-container {
+        height: 600px;
+    }
+}
+
+
+
+
