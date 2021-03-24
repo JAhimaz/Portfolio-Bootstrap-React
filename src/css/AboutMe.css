@@ -2,15 +2,32 @@
 
 .aboutme-container {
     margin-top: 5em;
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-color: var(--bg-over);
+    color: rgb(190, 190, 190);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    font-size: 1em;
+}
+
+.sub-quote {
+    margin-top: 2em;
+    color: var(--primary-color);
 }
 
 
 /* HORIZONTAL IPAD VIEW */
 
 @media screen and (min-width: 1024px) {
+    .aboutme-container {
+        font-size: 1.2em;
+        padding: 0 20%;
+        height: 500px;
+    }
 }
 
 /* 720p LAPTOP VIEW */
@@ -22,7 +39,9 @@
 
 @media screen and (min-width: 1920px) {
     .aboutme-container {
-        height: 600px;
+        font-size: 1.2em;
+        padding: 0 20%;
+        height: 400px;
     }
 }
 

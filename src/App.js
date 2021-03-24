@@ -11,6 +11,7 @@ import Particles from 'react-particles-js';
 import Navigation from './components/Navigation';
 import Profile from './components/Profile';
 import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
 
 function App() {
 
@@ -61,7 +62,10 @@ function App() {
           }}
         />
         <Profile />
+        <a name="aboutme" />
         <AboutMe />
+        <a name="portfolio" />
+        <Portfolio />
       </header>
     </div>
   );

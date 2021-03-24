@@ -5,12 +5,20 @@ import { Navbar,
 
 import '../css/Navigation.css';
 
-import { leftNavigation, rightNavigation, resumeBtn } from '../EditMe';
+import { navLogo, leftNavigation, rightNavigation, resumeBtn } from '../EditMe';
 
 function Navigation() {
     return (
         <Navbar variant="dark" className="nav" expand="lg" sticky="top">
-        <Navbar.Brand className="nav-brand" href="#home">Your Logo</Navbar.Brand>
+        {navLogo.enabled && (
+            <Navbar.Brand className="nav-brand" href={navLogo.linkTo}>{
+                navLogo.isImage ? (
+                    <img src={navLogo.imageURL} className="nav-logo" width={navLogo.logoWidth} alt={navLogo.altText}/> 
+                ) : (
+                    navLogo.altText
+                )
+            }</Navbar.Brand>
+        )}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -22,7 +30,7 @@ function Navigation() {
                 {rightNavigation.map((item) => 
                     <Nav.Link className="nav-items" href={item.url}>{item.text}</Nav.Link>
                 )}
-                { resumeBtn.enabled && ( <Button className="nav-resume">Resume</Button> )}   
+                { resumeBtn.enabled && ( <Button className="nav-resume" href={resumeBtn.url} target="_blank">{resumeBtn.text}</Button> )}   
             </Nav>
         </Navbar.Collapse>
       </Navbar>
