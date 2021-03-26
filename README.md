@@ -7,3 +7,6 @@ Feel free to contribute to help improve the template for others.
 ## Get Started with the Template
 
 < Currently in Progress >
+
+You can view the progress of the template on the page:
+https://jahimaz.github.io/portfolio-bootstrap-react/
