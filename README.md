@@ -1,8 +1,8 @@
 # Developer Portfolio Template - ReactJS & Bootstrap
 
 ## Project Information
-![Project Status](https://img.shields.io/static/v1?label=Project%20Status&message=In%20Progress&color=orange&logo=github?style=for-the-badge)
-![Project Size](https://img.shields.io/github/repo-size/JAhimaz/portfolio-bootstrap-react?style=for-the-badge)
+![Project Status](https://img.shields.io/badge/Project%20Status-In%20Progress-orange?style=for-the-badge&logo=github)
+![Project Size](https://img.shields.io/github/repo-size/JAhimaz/portfolio-bootstrap-react?style=for-the-badge&logo=github)
 
 This portfolio is completely free for personal usage, although claiming the project as your own would be disrespectful and immoral. Everything is editable to your will. Though any form of credit is greatly appreciated.
 
