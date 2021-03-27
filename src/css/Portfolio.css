@@ -1,0 +1,12 @@
+@import "root.css";
+
+.portfolio-card {
+    height: 500px;
+    padding: 1em 1em;
+    justify-content: center;
+}
+
+.card-info {
+    height: 100%;
+    width: 100%;
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 
 import '../css/AboutMe.css';
 import { aboutMeDescription, aboutMeQuote } from '../EditMe';

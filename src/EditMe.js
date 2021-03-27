@@ -1,11 +1,22 @@
 /* 
 
-For CSS (Colours) editing, head to 'css/EditMe.css'
+For CSS (Colours) editing, head to 'css/root.css'
 
 Here you can edit the main values for your page, such as the name, job title, etc.
 Ofcourse you may take full advantage of editing it yourself through the code if you wish.
 
 */
+
+// Page Styling ------------------------------------------------------------------
+
+export let pageStyling = {
+    backgroundColour: "#201f25", // Main Page Background Colour
+    foregroundColour: "#33313a", // Foreground Colour
+    primaryColour: "#38cdee", // Neon Colour
+    secondaryColour: "#4edcff", // Underglow Colour
+    font: "Consolas, Lucida Sans Typewriter, Lucida Console, Monaco, Bitstream Vera Sans Mono, monospace",
+    particleEffect: true,
+}
 
 // Navigation --------------------------------------------------------------------
 
@@ -48,31 +59,22 @@ export let resumeBtn = {
 
 // Information ------------------------------------------------------------------------
 
-// Name in Profile Banner
-export let fullName = "John D. Doe";
-
-// Welcome subheading above Name
-export let welcomeMsg = "Welcome! I am,";
-
-// Company Position
-export let aboutMe = "Short Description of yourself!";
-
-// Company Name after "@"
-export let companyName = "Position @ Company";
-
-// Replace with the URL to your image (URL or Local Image)
-export let profilePhoto = "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg";
+export let information = {
+    fullName: "John D. Doe", // Name in Profile Banner
+    welcomeMsg: "Welcome! I am,", // Welcome subheading above Name
+    aboutMe: "Short Description of yourself!", // Short Description
+    companyName: "Position @ Company", // Your position @ a Company
+    // Replace with the URL to your image (URL or Local Image)
+    profilePhoto: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+}
 
 // Socials ----------------------------------------------------------------------------
 
-// Twitter
-export let twitterURL = "https://twitter.com/";
-
-// Github
-export let githubURL = "https://github.com/";
-
-// Linkedin
-export let linkedinURL = "https://www.linkedin.com/in/";
+export let socials = {
+    twitterURL: "https://twitter.com/", // Twitter
+    githubURL: "https://github.com/", // Github
+    linkedinURL: "https://www.linkedin.com/in/", // LinkedIn
+}
 
 // About Me ----------------------------------------------------------------------------
 
@@ -80,10 +82,21 @@ export let aboutMeDescription = "Lorem ipsum dolor sit amet, consectetur adipisc
 
 export let aboutMeQuote = "\"The Best Preparation For Tommorow Is Doing Your Best Today.\"";
 
+// Portfolio ---------------------------------------------------------------------------
+
+export let portfolioCards = [
+    {
+        backgroundColour: "red",
+        projectTitle: "My Project 1",
+        projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+        projectURL: "https://github.com/",
+    },
+]
+
 
 /* 
 
-Portfolio-Bootstrap-React by Joshua Daveston Ahimaz 
+Portfolio-Bootstrap-React by Joshua Daveston Ahimaz     
 
 My Portfolio:
 https://JAhimaz.github.io

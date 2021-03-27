@@ -30,7 +30,7 @@ function Navigation() {
                 {rightNavigation.map((item) => 
                     <Nav.Link className="nav-items" href={item.url}>{item.text}</Nav.Link>
                 )}
-                { resumeBtn.enabled && ( <Button className="nav-resume" href={resumeBtn.url} target="_blank">{resumeBtn.text}</Button> )}   
+                { resumeBtn.enabled && ( <Button className="nav-resume" href={resumeBtn.url} target="_blank" rel="noreferrer">{resumeBtn.text}</Button> )}   
             </Nav>
         </Navbar.Collapse>
       </Navbar>
