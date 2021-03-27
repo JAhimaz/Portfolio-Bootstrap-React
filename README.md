@@ -1,7 +1,7 @@
 # Developer Portfolio Template - ReactJS & Bootstrap
 
 ## Project Information
-Project is **INCOMPLETE**.
+![Project Status](https://img.shields.io/static/v1?label=Project%20Status&message=In%20Progress&color=orange&logo=github)
 
 This portfolio is completely free for personal usage, although claiming the project as your own would be disrespectful and immoral. Everything is editable to your will. Though any form of credit is greatly appreciated.
 
