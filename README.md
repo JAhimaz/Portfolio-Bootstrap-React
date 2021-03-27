@@ -40,7 +40,7 @@ Credit to Libraries used:
 
 Head over to `src/EditMe.js` to edit the portfolio's information and styling.
 
-For a full guide with images head over to the [WIKI](https://github.com/JAhimaz/portfolio-bootstrap-react/wiki)
+<!-- For a full guide with images head over to the [WIKI](https://github.com/JAhimaz/portfolio-bootstrap-react/wiki) -->
 
 #### Styling The Page
 
