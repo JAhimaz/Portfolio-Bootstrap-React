@@ -5,7 +5,7 @@
     height: 600px;
     width: 100%;
     background-color: var(--bg-over);
-    color: rgb(190, 190, 190);
+    color: #bebebe;
     display: flex;
     flex-direction: column;
     align-items: center;

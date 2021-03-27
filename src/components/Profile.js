@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Container, Col, 
     Row } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import '../css/Profile.css';
 
@@ -9,7 +10,7 @@ import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
 
 // Value Import
 import { information, socials } from '../EditMe';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function Profile() {
     return (

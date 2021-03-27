@@ -13,6 +13,7 @@ import Navigation from './components/Navigation';
 import Profile from './components/Profile';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
+import Skills from './components/Skills';
 
 import { pageStyling } from './EditMe';
 
@@ -79,6 +80,8 @@ function App() {
         <AboutMe />
         <a name="portfolio" />
         <Portfolio />
+        <a name="skills" />
+        <Skills />
       </header>
     </div>
   );

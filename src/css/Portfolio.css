@@ -1,12 +1,54 @@
 @import "root.css";
 
+.portfolio-container {
+    margin-top: 5em;
+}
+
 .portfolio-card {
     height: 500px;
     padding: 1em 1em;
     justify-content: center;
 }
 
+/* Card Information */
+
 .card-info {
     height: 100%;
     width: 100%;
+    border: 2px solid var(--primary-color);
+    background-color: var(--bg-over);
+    border-radius: 0.8em;
+    box-shadow: 0 0 5px var(--primary-color);
+    color: #bebebe;
+}
+
+.card-title {
+    padding-top: 1em;
+    padding-left: 2em;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+.card-external-url, .card-external-url:hover, .card-external-url:active, .card-external-url:visited {
+    padding-top: 1em;
+    padding-right: 2em;
+    text-align: right;
+}
+
+.url-icon, .url-icon:active, .url-icon:visited {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.url-icon:hover {
+    color: var(--secondary-color);
+}
+
+.card-desc {
+    padding: 1em 2.5em;
+    font-size: 0.8em;
+    text-align: left;
+    overflow-y: auto;
 }
