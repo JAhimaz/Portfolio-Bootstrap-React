@@ -1,16 +1,16 @@
 import React from 'react';
 
 import '../css/AboutMe.css';
-import { aboutMeDescription, aboutMeQuote } from '../EditMe';
+import { aboutMe } from '../EditMe';
 
 function AboutMe() {
     return (
         <div className="aboutme-container">
             <div className="main">
-                {aboutMeDescription}
+                {aboutMe.description}
             </div>
             <div className="sub-quote">
-                {aboutMeQuote}
+                {aboutMe.quote}
             </div>
         </div>
     );
