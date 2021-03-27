@@ -21,26 +21,26 @@ export let pageStyling = {
 // Navigation --------------------------------------------------------------------
 
 export let navigation = {
-    navLogo: {
-        enabled: true,
-        isImage: false, // Setting to false will use the Alt text
+    navLogo: { // Navigation Logo
+        enabled: true, // Do you want to use a Branding?
+        isImage: false, // Do you want to use an Image? If not, alt text will be used
         imageURL: "https://www.wilsonfamilychiropracticcenter.net/wp-content/uploads/2018/12/placeholder-logo-2.png",
         logoWidth: "75px", // Size of your logo, adjustable without the CSS
         altText: "Your Logo", // This will be used if it is not an Image (Will also be the alt text if it is an image)
         linkTo: "#",
     },
 
-    leftNavigation: [
+    leftNavigation: [ // Add items to the left side of the navigation Bar
         {
             text: "_External",
             url: "#",
         },
     ],
 
-    rightNavigation: [
+    rightNavigation: [ // Add items to the right side of the navigation Bar
         {
-            text: "_About Me",
-            url: "#aboutme",
+            text: "_About Me", // Text Value
+            url: "#aboutme", // Anchor points or External URLS, you may have to edit the App.js to add Anchors
         },
         {
             text: "_Portfolio",
@@ -56,10 +56,12 @@ export let navigation = {
         },
     ],
 
+    // Enable / Disable a Resume Button to allow a user to download your RESUME
+
     resumeBtn: {
-        enabled: true,
-        downloadIcon: true,
-        text: "Resume",
+        enabled: true, // Enable / Disable
+        downloadIcon: true, // Show Icon
+        text: "Resume", // Text on Button
         url: "https://google.com", // Make sure to include https:// or http://. This is the download link to your stored Resume
     }
 }
