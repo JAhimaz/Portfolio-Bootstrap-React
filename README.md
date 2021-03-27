@@ -1,7 +1,7 @@
-# Portfolio Template - ReactJS & Bootstrap
-## This Project is Incomplete - Subject to Change
+# Developer Portfolio Template - ReactJS & Bootstrap
 
-<hr>
+## Project Information
+Project is **INCOMPLETE**.
 
 This portfolio is completely free for personal usage, although claiming the project as your own would be disrespectful and immoral. Everything is editable to your will. Though any form of credit is greatly appreciated.
 
@@ -10,6 +10,18 @@ The portfolio has been designed to be reactive to fit both **mobile** and **desk
 Feel free to contribute to help improve the template for others.
 
 **A Live demo of the portfolio can be viewed here:** https://jahimaz.github.io/portfolio-bootstrap-react/
+
+Credit to Libraries used:
+
+```
+- "react-minimal-pie-chart": "^8.2.0",
+- "react-particles-js": "^3.4.1",
+- "@fortawesome/fontawesome-svg-core": "^1.2.35",
+- "@fortawesome/free-brands-svg-icons": "^5.15.3",
+- "@fortawesome/free-solid-svg-icons": "^5.15.3",
+- "@fortawesome/react-fontawesome": "^0.1.14",
+- "React-deploy"
+```
 
 ## Get Started with the Template
 
