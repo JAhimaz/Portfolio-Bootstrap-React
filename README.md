@@ -26,11 +26,21 @@ Credit to Libraries used:
 
 ## Get Started with the Template
 
-**< Currently in Progress >**
+1. Click on **Use This Template** and name your repository to anything you wish. Preferably `my-portfolio`. _(This is important as you require the Repository)_
+2. Clone the repository to your local machine use your "templated" repo, hence `git clone https://github.com/YOUR NAME/REPO NAME`.
+3. Run the command `npm install` to get all the dependencies.
+4. Edit the portfolio via the `src/EditMe.js` or any manual code changes you would like to do. You may also edit the `README.md` to remove all these instructions.
+5. Headover to `package.json` and change `homepage` in this format `http://YOUR-NAME.github.io/REPO-NAME`
+6. `git add .` -> `git commit -m "first commit"` -> `git push origin main`. This will push all your changes to your repository.
+7. Once pushed, on your local machine run the command `npm run deploy`. This will push it to your GitHub Pages.
+8. Ofcourse, you may use any web hosting service to host your website, for ease we are using react deploy.
+9. Your Portfolio should be live at `http://YOUR-NAME.github.io/REPO-NAME`.
 
 ## Editing the Portfolio
 
 Head over to `src/EditMe.js` to edit the portfolio's information and styling.
+
+For a full guide with images head over to the [WIKI](https://github.com/JAhimaz/portfolio-bootstrap-react/wiki)
 
 #### Styling The Page
 
