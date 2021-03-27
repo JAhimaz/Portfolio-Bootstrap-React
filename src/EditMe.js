@@ -57,6 +57,7 @@ export let rightNavigation = [
 
 export let resumeBtn = {
     enabled: true,
+    downloadIcon: true,
     text: "Resume",
     url: "https://google.com", // Make sure to include https:// or http://. This is the download link to your stored Resume
 }

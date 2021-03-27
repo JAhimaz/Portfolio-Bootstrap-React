@@ -3,7 +3,11 @@ import { Navbar,
         Nav, 
         Button } from 'react-bootstrap';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import '../css/Navigation.css';
+
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
 
 import { navLogo, leftNavigation, rightNavigation, resumeBtn } from '../EditMe';
 
@@ -30,7 +34,10 @@ function Navigation() {
                 {rightNavigation.map((item) => 
                     <Nav.Link className="nav-items" href={item.url}>{item.text}</Nav.Link>
                 )}
-                { resumeBtn.enabled && ( <Button className="nav-resume" href={resumeBtn.url} target="_blank" rel="noreferrer">{resumeBtn.text}</Button> )}   
+                { resumeBtn.enabled && ( <Button className="nav-resume" href={resumeBtn.url} target="_blank" rel="noreferrer">{resumeBtn.text} { resumeBtn.downloadIcon && (
+                    <FontAwesomeIcon icon={ faFileDownload } />
+                )}
+                </Button> )}   
             </Nav>
         </Navbar.Collapse>
       </Navbar>
