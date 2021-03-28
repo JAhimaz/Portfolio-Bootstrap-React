@@ -16,7 +16,7 @@ Feel free to contribute to help improve the template for others.
 **A Live demo of the portfolio can be viewed here:** https://jahimaz.github.io/portfolio-bootstrap-react/
 
 **Features Under Production**
-- Skills Section
+- ~Skills Section~
 - Experiences Section
 - Further Customisability
 - WIKI page.
