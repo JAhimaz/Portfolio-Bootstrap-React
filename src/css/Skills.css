@@ -3,13 +3,20 @@
 }
 
 .skills-panel {
-    border-left: 1px solid rgba(255, 255, 255, 0.068);
-    text-align: left;
-    padding-left: 2.5em;
+    line-height: 1.75em;
+    text-align: center;
     color: var(--text-color);
 }
 
 .skills-highlight {
     color: var(--primary-color);
     text-shadow: 0 0 2px var(--primary-color);
+}
+
+@media screen and (min-width: 1024px) {
+    .skills-panel {
+        text-align: left;
+        padding-left: 2.5em;
+        border-left: 1px solid rgba(255, 255, 255, 0.068);
+    }
 }
