@@ -117,14 +117,16 @@ export let portfolioCards = [
 
 export let skills = {
     //Pie Chart Editing
-    radius: 42,
-    lineWidth: 15,
-    paddingAngle: 5,
+    radius: 42, // of the circle
+    lineWidth: 15, //The line Width of all segments
+    paddingAngle: 5, // The distance between each segment
     //Labels
-    labelPosition: 72,
-    fontSize: '2px',
+    labelPosition: 72, // Location of Label. Outer = 166
+    fontSize: '2px', // Size of the Label
     //Pie Chart Data
     skillsData: [
+        // Each Skill will have the title, value for the chart, color, experience (years, months) and a desscription on the task
+        // Some examples are shown below
         { title: 'ReactJS', value: 45, color: '#28ACEA', experience: '3 years',
         description: 'Built multiple ReactJS based websites with integration of NodeJS and Redux'},
         { title: 'Java', value: 25, color: '#19CEEB', experience: '2 years',
