@@ -16,7 +16,7 @@ export let pageStyling = {
     secondaryColour: "#4edcff", // Underglow Colour
     font: "Consolas, Lucida Sans Typewriter, Lucida Console, Monaco, Bitstream Vera Sans Mono, monospace",
     particleEffect: true,
-}
+};
 
 // Navigation --------------------------------------------------------------------
 
@@ -64,7 +64,7 @@ export let navigation = {
         text: "Resume", // Text on Button
         url: "https://google.com", // Make sure to include https:// or http://. This is the download link to your stored Resume
     }
-}
+};
 
 // Information ------------------------------------------------------------------------
 
@@ -75,7 +75,7 @@ export let information = {
     companyName: "Position @ Company", // Your position @ a Company
     // Replace with the URL to your image (URL or Local Image)
     profilePhoto: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
-}
+};
 
 // Socials ----------------------------------------------------------------------------
 
@@ -83,14 +83,14 @@ export let socials = {
     twitterURL: "https://twitter.com/", // Twitter
     githubURL: "https://github.com/", // Github
     linkedinURL: "https://www.linkedin.com/in/", // LinkedIn
-}
+};
 
 // About Me ----------------------------------------------------------------------------
 
 export let aboutMe = {
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
     quote: "\"The Best Preparation For Tommorow Is Doing Your Best Today.\"",
-}
+};
 
 // Portfolio ---------------------------------------------------------------------------
 
@@ -110,7 +110,26 @@ export let portfolioCards = [
         projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
         projectURL: "https://github.com/",
     },
-]
+];
+
+// Skills -----------------------------------------------------------------------------
+
+export let skills = {
+    //Pie Chart Editing
+    radius: 42,
+    lineWidth: 15,
+    paddingAngle: 5,
+    //Labels
+    labelPosition: 72,
+    fontSize: '2px',
+    //Pie Chart Data
+    skillsData: [
+        { title: 'ReactJS', value: 45, color: '#28ACEA', experience: '3 years' },
+        { title: 'Java', value: 25, color: '#19CEEB', experience: '2 years' },
+        { title: 'C++', value: 10, color: '#09EBEE', experience: '1 year' },
+        { title: 'Others', value: 20, color: '#00FEEF', experience: '1 year' },
+    ],
+}
 
 
 /* 

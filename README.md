@@ -41,7 +41,7 @@ Credit to Libraries used:
 6. `git add .` -> `git commit -m "first commit"` -> `git push origin main`. This will push all your changes to your repository.
 7. Once pushed, on your local machine run the command `npm run deploy`. This will push it to your GitHub Pages.
 8. Ofcourse, you may use any web hosting service to host your website, for ease we are using react deploy.
-9. Your Portfolio should be live at `http://YOUR-NAME.github.io/REPO-NAME`.
+9. Your Portfolio should be live at `httsp://YOUR-NAME.github.io/REPO-NAME`.
 
 ## Editing the Portfolio
 
