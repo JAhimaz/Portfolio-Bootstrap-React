@@ -59,6 +59,7 @@ export let pageStyling = {
     foregroundColour: "#33313a", // Foreground Colour
     primaryColour: "#38cdee", // Neon Colour
     secondaryColour: "#4edcff", // Underglow Colour
+    textColor: "#bebebe", // Colour of the text in the Project
     font: "Consolas, Lucida Sans Typewriter, Lucida Console, Monaco, Bitstream Vera Sans Mono, monospace",
     particleEffect: true,
 }

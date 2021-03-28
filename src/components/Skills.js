@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { PieChart } from 'react-minimal-pie-chart';
+import axios from 'axios';
 
 import '../css/Skills.css';
 
@@ -12,7 +13,7 @@ import { skills } from '../EditMe';
 function Skills() {
 
     return (
-        <Container>
+        <Container className="skills-section">
             <Row>
                 <Col xs={12} sm={6}>
                     <PieChart
@@ -28,8 +29,12 @@ function Skills() {
                     paddingAngle={skills.paddingAngle}
                     />
                 </Col>
-                <Col xs={12} sm={6}>
-
+                <Col xs={12} sm={6} className="skills-panel">
+                    {skills.skillsData.map((skill) => 
+                        <>
+                            <p><span className="skills-highlight">{skill.title}</span><br />- {skill.description}<br />Experience: <span className="skills-highlight">{skill.experience}</span></p>
+                        </>
+                    )}
                 </Col>
             </Row>
         </Container>

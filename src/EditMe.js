@@ -10,10 +10,11 @@ Ofcourse you may take full advantage of editing it yourself through the code if 
 // Page Styling ------------------------------------------------------------------
 
 export let pageStyling = {
-    backgroundColour: "#201f25", // Main Page Background Colour
-    foregroundColour: "#33313a", // Foreground Colour
-    primaryColour: "#38cdee", // Neon Colour
-    secondaryColour: "#4edcff", // Underglow Colour
+    backgroundColor: "#201f25", // Main Page Background Color
+    foregroundColor: "#33313a", // Foreground Color
+    primaryColor: "#38cdee", // Neon Color
+    secondaryColor: "#4edcff", // Underglow Color
+    textColor: "#bebebe",
     font: "Consolas, Lucida Sans Typewriter, Lucida Console, Monaco, Bitstream Vera Sans Mono, monospace",
     particleEffect: true,
 };
@@ -124,10 +125,14 @@ export let skills = {
     fontSize: '2px',
     //Pie Chart Data
     skillsData: [
-        { title: 'ReactJS', value: 45, color: '#28ACEA', experience: '3 years' },
-        { title: 'Java', value: 25, color: '#19CEEB', experience: '2 years' },
-        { title: 'C++', value: 10, color: '#09EBEE', experience: '1 year' },
-        { title: 'Others', value: 20, color: '#00FEEF', experience: '1 year' },
+        { title: 'ReactJS', value: 45, color: '#28ACEA', experience: '3 years',
+        description: 'Built multiple ReactJS based websites with integration of NodeJS and Redux'},
+        { title: 'Java', value: 25, color: '#19CEEB', experience: '2 years',
+        description: 'Worked on multiple Minecraft Plugins and Text-Based Adventure Survival CLI game'},
+        { title: 'C++', value: 10, color: '#09EBEE', experience: '1 year',
+        description: 'Sorting system of user class information'},
+        { title: 'Others', value: 20, color: '#00FEEF', experience: '1 year',
+        description: 'Experience with Game Development such as Unity (C#) having 2 published games on the Play Store.'},
     ],
 }
 

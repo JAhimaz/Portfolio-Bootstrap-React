@@ -19,7 +19,7 @@
     background-color: var(--bg-over);
     border-radius: 0.8em;
     box-shadow: 0 0 5px var(--primary-color);
-    color: #bebebe;
+    color: var(--text-color);
 }
 
 .card-title {

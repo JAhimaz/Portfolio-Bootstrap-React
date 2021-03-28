@@ -21,11 +21,12 @@ function App() {
 
   useEffect(() => {    
     var root = document.querySelector(':root');
-    root.style.setProperty('--bg-color', pageStyling.backgroundColour);
-    root.style.setProperty('--bg-over', pageStyling.foregroundColour);
-    root.style.setProperty('--primary-color', pageStyling.primaryColour);
-    root.style.setProperty('--secondary-color', pageStyling.secondaryColour);
+    root.style.setProperty('--bg-color', pageStyling.backgroundColor);
+    root.style.setProperty('--bg-over', pageStyling.foregroundColor);
+    root.style.setProperty('--primary-color', pageStyling.primaryColor);
+    root.style.setProperty('--secondary-color', pageStyling.secondaryColor);
     root.style.setProperty('--font', pageStyling.font);
+    root.style.setProperty('--text-color', pageStyling.textColor);
   });
 
   return (
