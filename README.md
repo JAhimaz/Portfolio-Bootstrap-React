@@ -4,6 +4,8 @@
 ![Project Status](https://img.shields.io/badge/Project%20Status-In%20Progress-orange?style=for-the-badge&logo=github)
 ![Project Size](https://img.shields.io/github/repo-size/JAhimaz/portfolio-bootstrap-react?style=for-the-badge&logo=github)
 
+![preview](https://github.com/JAhimaz/portfolio-bootstrap-react/blob/main/GitHub/preview.png)
+
 This portfolio is completely free for personal usage, although claiming the project as your own would be disrespectful and immoral. Everything is editable to your will. Though any form of credit is greatly appreciated.
 
 The portfolio has been designed to be reactive to fit both **mobile** and **desktop view**.
