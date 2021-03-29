@@ -15,6 +15,7 @@ export let pageStyling = {
     primaryColor: "#38cdee", // Neon Color
     secondaryColor: "#4edcff", // Underglow Color
     textColor: "#bebebe",
+    subTextColor: "#616161",
     font: "Consolas, Lucida Sans Typewriter, Lucida Console, Monaco, Bitstream Vera Sans Mono, monospace",
     particleEffect: true,
 };
@@ -120,7 +121,43 @@ export let portfolioCards = [
 // Experience -------------------------------------------------------------------------
 
 export let experience = {
-    test: "",
+    experiences: [ // Preferably, sort by newest first
+        {
+            companyLogo: "", // Leave Blank for Template Logo
+            companyName: "The New Company", // Company Name
+            companyLocation: "Selangor, Malaysia", // Location of Company
+            roles: [ // Each company can have multiple Roles
+                {
+                    role: "Software Engineer",
+                    type: "Full-Time", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "Apr 2020", // Preferable format
+                    endPeriod: "Present", // End result will look like "Apr 2020 - Present"
+                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+                },
+                {
+                    role: "Intern",
+                    type: "Internship", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "Jan 2020", // Preferable format
+                    endPeriod: "Apr 2020", // End result will look like "Apr 2020 - Present"
+                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+                },
+            ],
+        },
+        {
+            companyLogo: "", // Leave Blank for Template Logo
+            companyName: "The Old Company", // Company Name
+            companyLocation: "United Kingdom", // Location of Company
+            roles: [ // Each company can have multiple Roles
+                {
+                    role: "Junior Full-Stack Developer",
+                    type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "Dec 2019", // Preferable format
+                    endPeriod: "Jan 2020", // End result will look like "Apr 2020 - Present"
+                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+                },
+            ],
+        },
+    ]
 };
 
 // Skills -----------------------------------------------------------------------------

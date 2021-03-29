@@ -69,7 +69,7 @@
 }
 
 .lower-profile-text-sub {
-    color: rgb(97, 97, 97);
+    color: var(--sub-text-color);
     font-size: 1em;
 }
 

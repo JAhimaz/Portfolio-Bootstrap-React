@@ -1,10 +1,9 @@
 # Developer Portfolio Template - ReactJS & Bootstrap
 
 ## Project Information
-![Project Status](https://img.shields.io/badge/Project%20Status-In%20Progress-orange?style=for-the-badge&logo=github)
+![Project Status](https://img.shields.io/badge/Project%20Status-Completed-green?style=for-the-badge&logo=github)
 ![Project Size](https://img.shields.io/github/repo-size/JAhimaz/portfolio-bootstrap-react?style=for-the-badge&logo=github)
 
-⚠️ _Preview is subject to change as the Project develops_ ⚠️
 ![preview](https://github.com/JAhimaz/portfolio-bootstrap-react/blob/main/GitHub/preview.png)
 
 This portfolio is completely free for personal usage, although claiming the project as your own would be disrespectful and immoral. Everything is editable to your will. Though any form of credit is greatly appreciated.
@@ -15,13 +14,6 @@ Feel free to contribute to help improve the template for others.
 
 **A Live demo of the portfolio can be viewed here:** https://jahimaz.github.io/portfolio-bootstrap-react/
 
-**Features Under Production**
-- Skills Section
-- Experiences Section
-- Further Customisability
-- WIKI page.
-- GitHub Actions
-
 Credit to Libraries used:
 
 ```
@@ -31,7 +23,8 @@ Credit to Libraries used:
 - "@fortawesome/free-brands-svg-icons": "^5.15.3",
 - "@fortawesome/free-solid-svg-icons": "^5.15.3",
 - "@fortawesome/react-fontawesome": "^0.1.14",
-- "React-deploy"
+- "gh-pages": "^3.1.0",
+- "clsx": "^1.1.1",
 ```
 
 ## Get Started with the Template
@@ -197,6 +190,52 @@ export let portfolioCards = [
         projectURL: "https://github.com/",
     },
 ]
+```
+
+#### Experience Section
+
+You can add as much experience as you wish within this section, but preferably companies that contribute towards your skills.
+
+```javascript
+export let experience = {
+    experiences: [ // Preferably, sort by newest first
+        {
+            companyLogo: "", // Leave Blank for Template Logo
+            companyName: "The New Company", // Company Name
+            companyLocation: "Selangor, Malaysia", // Location of Company
+            roles: [ // Each company can have multiple Roles
+                {
+                    role: "Software Engineer",
+                    type: "Full-Time", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "Apr 2020", // Preferable format
+                    endPeriod: "Present", // End result will look like "Apr 2020 - Present"
+                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+                },
+                {
+                    role: "Intern",
+                    type: "Internship", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "Jan 2020", // Preferable format
+                    endPeriod: "Apr 2020", // End result will look like "Apr 2020 - Present"
+                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+                },
+            ],
+        },
+        {
+            companyLogo: "", // Leave Blank for Template Logo
+            companyName: "The Old Company", // Company Name
+            companyLocation: "United Kingdom", // Location of Company
+            roles: [ // Each company can have multiple Roles
+                {
+                    role: "Junior Full-Stack Developer",
+                    type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "Dec 2019", // Preferable format
+                    endPeriod: "Jan 2020", // End result will look like "Apr 2020 - Present"
+                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+                },
+            ],
+        },
+    ]
+};
 ```
 
 #### Skills Section

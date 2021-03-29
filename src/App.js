@@ -28,6 +28,7 @@ function App() {
     root.style.setProperty('--secondary-color', pageStyling.secondaryColor);
     root.style.setProperty('--font', pageStyling.font);
     root.style.setProperty('--text-color', pageStyling.textColor);
+    root.style.setProperty('--sub-text-color', pageStyling.subTextColor);
   });
 
   return (
