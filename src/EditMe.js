@@ -48,6 +48,10 @@ export let navigation = {
             url: "#portfolio",
         },
         {
+            text: "_Experience",
+            url: "#experience",
+        },
+        {
             text: "_Skills",
             url: "#skills",
         },
@@ -112,6 +116,12 @@ export let portfolioCards = [
         projectURL: "https://github.com/",
     },
 ];
+
+// Experience -------------------------------------------------------------------------
+
+export let experience = {
+    test: "",
+};
 
 // Skills -----------------------------------------------------------------------------
 

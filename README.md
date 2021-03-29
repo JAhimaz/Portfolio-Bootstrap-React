@@ -102,6 +102,10 @@ export let navigation = {
             url: "#portfolio",
         },
         {
+            text: "_Experience",
+            url: "#experience",
+        },
+        {
             text: "_Skills",
             url: "#skills",
         },
