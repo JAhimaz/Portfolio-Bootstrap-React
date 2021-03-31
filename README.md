@@ -12,7 +12,7 @@ The portfolio has been designed to be reactive to fit both **mobile** and **desk
 
 Feel free to contribute to help improve the template for others.
 
-**A Live demo of the portfolio can be viewed here:** https://jahimaz.github.io/portfolio-bootstrap-react/
+**A Live demo of the portfolio can be viewed here:** https://jahimaz.github.io/Portfolio-Bootstrap-React/
 
 Credit to Libraries used:
 
@@ -268,4 +268,3 @@ export let skills = {
 ```
 
 <hr>
-
