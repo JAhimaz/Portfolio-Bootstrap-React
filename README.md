@@ -269,4 +269,4 @@ export let skills = {
 
 <hr>
 
-@JAhimaz
+@JAhimaz - https://github.com/JAhimaz
