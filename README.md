@@ -43,8 +43,6 @@ Credit to Libraries used:
 
 Head over to `src/EditMe.js` to edit the portfolio's information and styling.
 
-<!-- For a full guide with images head over to the [WIKI](https://github.com/JAhimaz/portfolio-bootstrap-react/wiki) -->
-
 #### Styling The Page
 
 The basic styling for the whole page, this includes the background colour, foreground and additional styling.
@@ -267,4 +265,8 @@ export let skills = {
 }
 ```
 
+<!-- For a full guide with images head over to the [WIKI](https://github.com/JAhimaz/portfolio-bootstrap-react/wiki) -->
+
 <hr>
+
+@JAhimaz - https://github.com/JAhimaz
