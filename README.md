@@ -14,7 +14,7 @@ Feel free to contribute to help improve the template for others.
 
 **A Live demo of the portfolio can be viewed here:** https://jahimaz.github.io/Portfolio-Bootstrap-React/
 
-Credit to Libraries used:
+Libraries used (Credits):
 
 ```
 - "react-minimal-pie-chart": "^8.2.0",
